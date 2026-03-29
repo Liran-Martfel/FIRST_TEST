@@ -19,6 +19,7 @@ while True:
             print('THE SUM IS: ', sum(list_of_grades))
             print('YOU HAVE TOTAL OF: ', len(list_of_grades))
             print('THE MAX GRADE IS: ', max(list_of_grades))
+            print('THE CLASS AVG IS: ', sum(list_of_grades) / len(list_of_grades))
             break
         else:
             print(f'You need more grades. Currently you have: {len(list_of_grades)}/10')
